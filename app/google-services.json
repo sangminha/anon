@@ -1,0 +1,98 @@
+{
+  "project_info": {
+    "project_number": "1078943531653",
+    "firebase_url": "https://maybe-2b3ec-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "maybe-2b3ec",
+    "storage_bucket": "maybe-2b3ec.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1078943531653:android:4626147e89a92b00919fec",
+        "android_client_info": {
+          "package_name": "com.saram.anon"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1078943531653-482o60cc1ikg8bbrqao935td2dj40r0o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBLHlMkGO8tJ6R1It5Mx1189UZ_KEjBOgo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1078943531653-482o60cc1ikg8bbrqao935td2dj40r0o.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1078943531653:android:4a07ca924c856b76919fec",
+        "android_client_info": {
+          "package_name": "com.saram.maybe"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1078943531653-482o60cc1ikg8bbrqao935td2dj40r0o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBLHlMkGO8tJ6R1It5Mx1189UZ_KEjBOgo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1078943531653-482o60cc1ikg8bbrqao935td2dj40r0o.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1078943531653:android:d5a269033b46264c919fec",
+        "android_client_info": {
+          "package_name": "com.saram.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1078943531653-482o60cc1ikg8bbrqao935td2dj40r0o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBLHlMkGO8tJ6R1It5Mx1189UZ_KEjBOgo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1078943531653-482o60cc1ikg8bbrqao935td2dj40r0o.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
