@@ -19,7 +19,7 @@
 
         <ImageView
             android:layout_width="80dp"
-            android:layout_height="92dp"
+            android:layout_height="120dp"
             android:layout_marginLeft="60dp"
 
             android:src="@drawable/vector4" />
@@ -29,32 +29,29 @@
             android:layout_height="120dp"
 
             android:src="@drawable/anon" />
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="70dp"
+        android:src="@drawable/vector3"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        >
 
     </LinearLayout>
 
 
-
-
-
-
-    <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="vertical"/>
-        <Button
-            android:layout_width="match_parent"
-            android:layout_height="40dp"
-
-          android:backgroundTint="@color/black"
-            android:text="익명으로 시작"
-            />
-
-        <TextView
-            android:layout_width="206dp"
-            android:layout_height="wrap_content"
-
-             />
-
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:text="익명으로 시작"
+        android:src="@color/blue_grey_200"
+        android:textSize="16sp"/>
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -93,7 +90,4 @@
 
     </LinearLayout>
 </LinearLayout>
-
-
-
 
