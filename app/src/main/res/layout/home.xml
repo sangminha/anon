@@ -9,14 +9,14 @@
             android:layout_width="128dp"
             android:layout_height="128dp"
             android:src="@drawable/vector4"
-            android:layout_marginLeft="110dp"
+            android:layout_marginLeft="130dp"
             android:layout_marginTop="300dp"
              />
 
         <ImageView
             android:layout_width="70dp"
             android:layout_height="8dp"
-            android:layout_marginLeft="140dp"
+            android:layout_marginLeft="150dp"
             android:src="@drawable/vector3" />
 
         <ImageView
