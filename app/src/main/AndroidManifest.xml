@@ -13,7 +13,7 @@
         android:supportsRtl="true"
         tools:targetApi="32">
         <activity
-            android:name="com.saram.anon.MainActivity"
+            android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

@@ -13,23 +13,21 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_marginBottom="4dp"
+        android:layout_marginTop="100dp"
         android:orientation="vertical"
-        android:layout_marginTop="140dp"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
         tools:layout_editor_absoluteX="0dp">
 
 
         <TextView
 
-            android:layout_width="316dp"
+            android:layout_width="match_parent"
             android:layout_height="64dp"
             android:drawableEnd="@drawable/search1"
+            android:gravity="center"
             android:text="                     search"
-            android:textSize="32dp"
-
-
-            />
+            android:textSize="32dp"/>
 
         <EditText
             android:id="@+id/edit"
@@ -39,11 +37,11 @@
 
         <androidx.recyclerview.widget.RecyclerView
             android:id="@+id/lstUser"
-            app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
-            tools:listitem="@layout/search_chat"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_margin="40dp" />
+            android:layout_margin="40dp"
+            app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+            tools:listitem="@layout/search_chat" />
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
