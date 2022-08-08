@@ -9,16 +9,27 @@
         <entry key="..\:/Users/ukjin/AndroidStudioProjects/anon/app/src/main/res/drawable/ic_launcher_background.xml" value="0.236" />
         <entry key="..\:/Users/ukjin/AndroidStudioProjects/anon/app/src/main/res/drawable/search1.xml" value="0.2265" />
         <entry key="..\:/Users/ukjin/AndroidStudioProjects/anon/app/src/main/res/drawable/white.xml" value="0.2265" />
+        <entry key="..\:/Users/ukjin/AndroidStudioProjects/anon/app/src/main/res/layout/activity_chat.xml" value="0.24947916666666667" />
+        <entry key="..\:/Users/ukjin/AndroidStudioProjects/anon/app/src/main/res/layout/activity_chat2.xml" value="0.15520833333333334" />
+        <entry key="..\:/Users/ukjin/AndroidStudioProjects/anon/app/src/main/res/layout/activity_chat3.xml" value="0.12" />
+        <entry key="..\:/Users/ukjin/AndroidStudioProjects/anon/app/src/main/res/layout/activity_edit.xml" value="0.23489583333333333" />
+        <entry key="..\:/Users/ukjin/AndroidStudioProjects/anon/app/src/main/res/layout/activity_edit2.xml" value="0.10989583333333333" />
+        <entry key="..\:/Users/ukjin/AndroidStudioProjects/anon/app/src/main/res/layout/activity_list.xml" value="0.2" />
+        <entry key="..\:/Users/ukjin/AndroidStudioProjects/anon/app/src/main/res/layout/activity_list2.xml" value="0.10989583333333333" />
+        <entry key="..\:/Users/ukjin/AndroidStudioProjects/anon/app/src/main/res/layout/activity_list_view.xml" value="0.13854166666666667" />
         <entry key="..\:/Users/ukjin/AndroidStudioProjects/anon/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/Users/ukjin/AndroidStudioProjects/anon/app/src/main/res/layout/activity_recycler.xml" value="0.1" />
         <entry key="..\:/Users/ukjin/AndroidStudioProjects/anon/app/src/main/res/layout/activity_second.xml" value="0.2" />
         <entry key="..\:/Users/ukjin/AndroidStudioProjects/anon/app/src/main/res/layout/chat1.xml" value="0.264" />
         <entry key="..\:/Users/ukjin/AndroidStudioProjects/anon/app/src/main/res/layout/chat2.xml" value="0.264" />
         <entry key="..\:/Users/ukjin/AndroidStudioProjects/anon/app/src/main/res/layout/chat3.xml" value="0.264" />
         <entry key="..\:/Users/ukjin/AndroidStudioProjects/anon/app/src/main/res/layout/chat_recycle.xml" value="0.24947916666666667" />
         <entry key="..\:/Users/ukjin/AndroidStudioProjects/anon/app/src/main/res/layout/home.xml" value="0.2" />
+        <entry key="..\:/Users/ukjin/AndroidStudioProjects/anon/app/src/main/res/layout/listitem.xml" value="0.4" />
         <entry key="..\:/Users/ukjin/AndroidStudioProjects/anon/app/src/main/res/layout/name_chat.xml" value="0.23489583333333333" />
         <entry key="..\:/Users/ukjin/AndroidStudioProjects/anon/app/src/main/res/layout/name_chat2.xml" value="0.24947916666666667" />
         <entry key="..\:/Users/ukjin/AndroidStudioProjects/anon/app/src/main/res/layout/name_chat3.xml" value="0.24947916666666667" />
+        <entry key="..\:/Users/ukjin/AndroidStudioProjects/anon/app/src/main/res/layout/replylistitem_1.xml" value="0.24947916666666667" />
         <entry key="..\:/Users/ukjin/AndroidStudioProjects/anon/app/src/main/res/layout/search.xml" value="0.2" />
         <entry key="..\:/Users/ukjin/AndroidStudioProjects/anon/app/src/main/res/layout/search_chat.xml" value="0.25" />
         <entry key="..\:/Users/ukjin/AndroidStudioProjects/anon/app/src/main/res/layout/text.xml" value="0.264" />
