@@ -10,6 +10,14 @@ import java.io.Serializable
 data class UserData(
 
 
-    val texttest : TextView
+    val texttest : String
 
-):Serializable
+){
+
+override fun equals(other: Any?): Boolean {
+    return this.texttest == (other as? String)
+}
+
+override fun hashCode(): Int {
+    return 5
+}}

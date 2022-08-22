@@ -27,6 +27,8 @@ class MainActivity : BaseActivity() {
             startActivity(myIntent)
             finish()
         }
+
+
     }
 
         override fun setValues() {}}
