@@ -27,5 +27,6 @@
         android:layout_height="36dp"
         android:layout_gravity="bottom|end"
         android:layout_margin="15dp"
+        android:text="수정하기"
          />
 </LinearLayout></layout>
