@@ -16,23 +16,37 @@
         android:theme="@style/Theme.Anon"
         android:usesCleartextTraffic="true"
         tools:targetApi="31">
-
+        <activity
+            android:name=".EditActivity"
+            android:exported="false"
+            android:label="@string/title_activity_edit"
+            android:theme="@style/Theme.Anon.NoActionBar" />
+        <activity
+            android:name=".NaviActivity"
+            android:exported="false"
+            android:label="@string/title_activity_navi" />
+        <activity
+            android:name=".SplashyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LoginActivity"
+            android:exported="false"
+            android:label="@string/title_activity_login"
+            android:theme="@style/Theme.Anon.NoActionBar" />
+        <activity
+            android:name=".search_chatActivity"
+            android:exported="false" />
         <activity
             android:name=".ListActivity"
             android:exported="false"
             android:label="@string/title_activity_list"
             android:theme="@style/Theme.Anon.NoActionBar" />
-
         <activity
             android:name=".Recycler"
-
             android:exported="false" />
         <activity
             android:name=".Edit"
-
             android:exported="false" />
-
-
         <activity
             android:name=".MainActivity"
             android:exported="true">

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+
+    <item android:id="@+id/location"
+        android:title="위치"
+        android:icon="@drawable/ic_baseline_location_on_24"/>
+
+    <item android:id="@+id/unnameed"
+        android:title="익명"
+        android:icon="@drawable/ic_baseline_chat_24"/>
+    <item android:id="@+id/home123"
+
+        android:title="홈"
+        android:icon="@drawable/ic_baseline_home_24"/>
+</menu>

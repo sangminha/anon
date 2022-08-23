@@ -5,99 +5,23 @@
         xmlns:tools="http://schemas.android.com/tools"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:paddingHorizontal="24dp"
         android:orientation="vertical"
-        tools:context=".MainActivity"
-        >
+        tools:context=".MainActivity">
 
+        <androidx.viewpager2.widget.ViewPager2
+            android:id="@+id/mainViewPager"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"/>
 
-        <LinearLayout
+        <com.google.android.material.bottomnavigation.BottomNavigationView
+            android:id="@+id/bottomNavi"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-
-            android:layout_marginTop="280dp"
-            android:gravity="center_vertical">
-
-            <LinearLayout
-                android:layout_width="120dp"
-                android:layout_height="120dp"
-                android:orientation="vertical">
-
-                <ImageView
-                    android:layout_width="80dp"
-                    android:layout_height="100dp"
-                    android:layout_marginLeft="40dp"
-
-                    android:src="@drawable/vector4" />
-
-                <ImageView
-                    android:layout_width="80dp"
-                    android:layout_height="wrap_content"
-                    android:layout_marginLeft="50dp"
-                    android:src="@drawable/vector3" />
-            </LinearLayout>
-            <ImageView
-                android:layout_width="160dp"
-                android:layout_height="120dp"
-
-                android:src="@drawable/anon" />
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="61dp"
-            android:orientation="vertical">
-        </LinearLayout>
-
-
-
-        <Button
-            android:layout_width="match_parent"
-            android:layout_height="40dp"
-            android:gravity="center"
-            android:backgroundTint="@color/black"
-            android:text="익명으로 시작"
-            android:src="@color/blue_grey_200"
-            android:textSize="16sp"
-            android:id="@+id/unnamed"/>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="40dp"
-            android:layout_marginTop="60dp"
-            android:background="@drawable/white"
-            android:gravity="center_vertical">
-
-
-            <ImageView
-                android:id="@+id/kakao_login_button"
-
-                android:layout_width="40dp"
-                android:layout_height="40dp"
-                android:layout_marginLeft="30dp"
-
-
-                android:layout_marginRight="80dp"
-                android:src="@drawable/kakao" />
-
-            <ImageView
-                android:id="@+id/google_login_button"
-                android:layout_width="40dp"
-                android:layout_height="40dp"
-
-                android:layout_marginRight="30dp"
-                android:src="@drawable/google" />
-
-            <ImageView
-                android:layout_width="40dp"
-                android:layout_height="40dp"
-                android:layout_marginLeft="30dp"
-                android:src="@drawable/naver" />
-
-        </LinearLayout>
-
+            app:menu="@menu/bottom_nav_menu"
+            app:labelVisibilityMode="labeled"
+            app:itemIconTint="@color/black"
+            app:itemTextColor="@color/black"/>
 
     </LinearLayout>
-
-
 </layout>
