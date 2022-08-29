@@ -15,6 +15,8 @@ import androidx.recyclerview.widget.RecyclerView
 import com.saram.anon.databinding.FragmentRecyclerBinding
 import data.UserData
 import kotlinx.android.synthetic.main.activity_edit.*
+import kotlinx.android.synthetic.main.activity_list.*
+import kotlinx.android.synthetic.main.fragment_recycler.*
 
 
 class RecyclerFragment: BasFragment() {
@@ -57,14 +59,22 @@ class RecyclerFragment: BasFragment() {
 //    }
 
     override fun setupEvents() {   Log.d("테스트12223",i.toString())
+
         binding.addReplyBtn.setOnClickListener {
 
 
             val myIntent = Intent(mContext, EditActivity::class.java)
             startActivityForResult(myIntent, REQ_FOR_REPLY)
 
-//        내 정보 화면으로 이동 (커스텀 액션바의 icon 클릭이벤트 활용)
+
         }
+                val context12 =
+//        내 정보 화면으로 이동 (커스텀 액션바의 icon 클릭이벤트 활용)
+           binding.rvProfile.setOnClickListener {
+                val kr = Intent(mContext, ChatActivity::class.java)
+               startActivity(kr)
+               // sta
+            }
 
     }
 

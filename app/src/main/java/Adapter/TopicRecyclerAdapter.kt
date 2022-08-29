@@ -26,8 +26,17 @@ class TopicRecyclerAdapter(
             val i =1
             val fragment = (mContext as MainActivity)
                 .supportFragmentManager.findFragmentByTag("f1") as RecyclerFragment
-     // val rv = itemView.findViewById<RecyclerView>(R.id.rv_profile)
+            // val rv = itemView.findViewById<RecyclerView>(R.id.rv_profile)
             contentTxt.text = item
+
+            contentTxt.setOnClickListener{
+                val myIntent = Intent(mContext, ChatActivity::class.java)
+                myIntent.putExtra("content", item)
+                    .putExtra("position", bindingAdapterPosition)
+                val fragment = (mContext as MainActivity)
+                    .supportFragmentManager.findFragmentByTag("f1") as RecyclerFragment
+                fragment.startActivityForResult(myIntent, fragment.REQ_FOR_EDIT)
+            }
 
 //            수정 버튼 클릭 이벤트
             editBtn.setOnClickListener {
@@ -39,7 +48,7 @@ class TopicRecyclerAdapter(
                 fragment.startActivityForResult(myIntent, fragment.REQ_FOR_EDIT)
 //                startActivityForResult를 진행하기 위해서 mContext에 Recycler라는 Activity로 형변환 진행
 //                던져주는 2개의 parameter(Intent 변수 - myIntent, requestCode - Recycler Activity에 멤버변수로 생성한 requeset code)
-               // (mContext as RecyclerFragment).startActivityForResult(myIntent, mContext.REQ_FOR_EDIT)
+                // (mContext as RecyclerFragment).startActivityForResult(myIntent, mContext.REQ_FOR_EDIT)
 
 
             }
