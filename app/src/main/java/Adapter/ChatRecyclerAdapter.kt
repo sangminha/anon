@@ -23,30 +23,16 @@ class ChatRecyclerAdapter(
     inner class MyViewHolder (view : View) : RecyclerView.ViewHolder(view) {
         fun bind(item: String) {
 
-            val profileImg = itemView.findViewById<ImageView>(R.id.imgUser_icon)
-            val contentTxt = itemView.findViewById<TextView>(R.id.contentTxt)
+            val contentTxt = itemView.findViewById<TextView>(R.id.text_context)
 
-            val emailTxt = itemView.findViewById<TextView>(R.id.text_context)
-
-
-            contentTxt.text = emailTxt.text
-
-
-
-
-
-//            수정 버튼 클릭 이벤트
-
-
-
-
+            contentTxt.text = item
         }
     }
 
 
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): MyViewHolder {
-        val row = LayoutInflater.from(mContext).inflate(R.layout.activity_friend_location, parent, false)
+        val row = LayoutInflater.from(mContext).inflate(R.layout.activity_chat, parent, false)
         return MyViewHolder(row)
     }
 

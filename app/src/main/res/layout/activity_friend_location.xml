@@ -7,34 +7,42 @@
         android:layout_height="match_parent"
         android:orientation="vertical"
         tools:context=".Recycler_tooFragment"
-        android:background="?attr/selectableItemBackground"
+        android:background="?attr/selectableItemBackground">
 
-        android:clickable="true"
-        android:focusable="true">
+        <TextView
+            android:id="@+id/selectedReplyTxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="클릭한 댓글"/>
 
-
-
-
-
-
-        <FrameLayout
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/profile"
             android:layout_width="match_parent"
-            android:layout_height="match_parent">
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_marginTop="10dp"/>
 
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
 
-            <androidx.recyclerview.widget.RecyclerView
-                android:id="@+id/profile"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:orientation="vertical"
-                app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
-                app:layout_constraintLeft_toLeftOf="parent"
-                app:layout_constraintRight_toRightOf="parent"
-                app:layout_constraintTop_toTopOf="parent"
-                />
+            <EditText
+                android:id="@+id/replyContentEdt"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"/>
 
+            <Button
+                android:id="@+id/addReplyBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:text="send"/>
 
-        </FrameLayout>
+        </LinearLayout>
+
 
     </LinearLayout>
 </layout>

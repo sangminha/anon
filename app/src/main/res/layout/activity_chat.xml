@@ -28,8 +28,7 @@
             <TextView
                 android:layout_width="357dp"
                 android:layout_height="37dp"
-                android:id="@+id/text_context"/>/ android:layout_marginLeft="40dp"
-
+                android:id="@+id/text_context"/>
 
         </LinearLayout>
 

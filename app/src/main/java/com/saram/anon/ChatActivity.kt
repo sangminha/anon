@@ -20,6 +20,8 @@ class ChatActivity : BaseActivity() {
     lateinit var mReplyAdapter: ChatRecyclerAdapter
     val mReplyList = ArrayList<String>()
 
+    var reply = ""
+
     //    댓글을 쓰기 위한 RequestCode
     val REQ_FOR_REPLY = 1004
     //    댓글 수정 확인을 위한 RequestCode
@@ -42,7 +44,12 @@ class ChatActivity : BaseActivity() {
 //    }
 
     override fun setupEvents() {
+        binding.addReplyBtn.setOnClickListener {
+            val content = binding.replyContentEdt.text.toString()
+            mReplyList.add(0, content)
 
+            mReplyAdapter.notifyDataSetChanged()
+        }
 
     }
 
@@ -51,6 +58,9 @@ class ChatActivity : BaseActivity() {
         binding.profile.adapter = mReplyAdapter
         binding.profile.layoutManager = LinearLayoutManager(mContext)
 
+        reply = intent.getStringExtra("content")!!
+
+        binding.selectedReplyTxt.text = reply
 
     }
 
