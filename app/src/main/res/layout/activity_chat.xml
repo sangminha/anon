@@ -26,9 +26,10 @@
 
 
             <TextView
-                android:layout_width="357dp"
+                android:id="@+id/text_context"
+                android:layout_width="336dp"
                 android:layout_height="37dp"
-                android:id="@+id/text_context"/>/ android:layout_marginLeft="40dp"
+                android:layout_marginLeft="20dp"/>
 
 
         </LinearLayout>
