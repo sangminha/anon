@@ -60,6 +60,7 @@ open class Location_to : BaseActivity() {
         Back_home.setOnClickListener {
             val myIntent = Intent(mContext, MainActivity::class.java)
             startActivity(myIntent)
+            finish()
         }
 
     }

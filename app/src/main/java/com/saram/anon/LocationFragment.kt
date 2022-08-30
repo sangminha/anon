@@ -37,11 +37,13 @@ class LocationFragment: BasFragment() {
             startActivity(myIntent)
             Log.d("테스트 232323",i2.toString())
 
+
 //        내 정보 화면으로 이동 (커스텀 액션바의 icon 클릭이벤트 활용)
         }
     }
 
     override fun setValues() {
+
 
     }
 
